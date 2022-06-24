@@ -16,7 +16,7 @@
     grid-area: navbar;
     background-color: rgb(95, 95, 173);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
 
     
@@ -35,6 +35,9 @@
     color: white; 
     font-size: 24px; 
 
+}
+.logo img{
+    width: 60px;
 }
 .header{
     grid-area: header;
