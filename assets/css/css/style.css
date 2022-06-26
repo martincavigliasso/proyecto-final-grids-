@@ -281,7 +281,7 @@ footer{
 }
     
 
-@media  (max-width: 100px) {
+@media  (max-width: 500px) {
     .productos{
         
         grid-template-columns: repeat(5,1fr);
@@ -294,6 +294,7 @@ footer{
         
     .navbarProductos{
         display: flex;
+        
     }
     .productosMain{
         display:flex
