@@ -247,7 +247,7 @@ footer{
 
     }
 
-}@media  (min-width: 800px) {
+}@media  (min-width: 100px) {
     .productos{
        display: flex;
        
