@@ -264,7 +264,10 @@ footer{
         flex-direction: column;
     
     }
-   
+    .navbarProductos{
+        display: flex;
+        flex-direction: column;
+    }
     
     .btn{
         width: 100px;
@@ -282,7 +285,7 @@ footer{
     .productos{
         
         grid-template-columns: repeat(5,1fr);
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: 300px auto auto auto auto;
         grid-template-areas: "navbar navbar navbar navbar navbar " 
                              "header header header header header"
                              "main main main main sidebar sidebar"
@@ -290,7 +293,7 @@ footer{
     }
         
     .navbarProductos{
-        width: 200px;
+        display: flex;
     }
     .productosMain{
         display:flex
