@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:ital,wght@0,300;0,400;1,700 & display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -530,4 +532,72 @@ footer{
     color: white;
     font-size: 18px;
 }
+  .contacto{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-size:cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex; 
+     
+    
+    
   
+  }
+  .form{
+    background-color: #f2f4f4;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3,5em  1,5em;
+  }
+  .formContainer{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+  }
+ .formTitle{
+    text-align: center;
+
+ }
+ .formImput{
+    font-size: 1rem;
+    padding: .8em 16px;
+    outline: none;
+    border: none;
+    border: 1px solid black; 
+    border-radius: 0.3em;
+    
+ } 
+ .form__input--mesage{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom:.5em;
+ } 
+ .formCta{
+    background-color:brown ;
+    color: #FFF; 
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+ } 
+ 
+ @media (max-width: 450px){
+      .form{
+        padding: 3.5em 1em;
+      }      
+
+ } 
+ .telefono{
+    font-family:fantasy;
+   
+ }
+ .mapa{
+    text-align: center;
+    
+ }   
+ 
